@@ -23,8 +23,8 @@ class torbenHelloWorld:
     # the latter method is running.
     ######################################### noqa
     VERSION = "0.0.1"
-    GIT_URL = "https://github.com/tnn111/torbenHelloWorld.git"
-    GIT_COMMIT_HASH = "222090659c64ad13b6ac6475bc3606ea6c737bdd"
+    GIT_URL = ""
+    GIT_COMMIT_HASH = ""
 
     #BEGIN_CLASS_HEADER
     #END_CLASS_HEADER
@@ -51,7 +51,7 @@ class torbenHelloWorld:
         # ctx is the context object
         # return variables are: output
         #BEGIN run_torbenHelloWorld
-        print("Input parameter", params['parameter_1'])
+        print("Input parameter", params['parameter1'])
         report = KBaseReport(self.callback_url)
         report_info = report.create({'report': {'objects_created':[],
                                                 'text_message': params['parameter_1']},
