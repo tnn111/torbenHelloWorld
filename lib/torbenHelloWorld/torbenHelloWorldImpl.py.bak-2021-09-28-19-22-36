@@ -24,7 +24,7 @@ class torbenHelloWorld:
     ######################################### noqa
     VERSION = "0.0.1"
     GIT_URL = "https://github.com/tnn111/torbenHelloWorld.git"
-    GIT_COMMIT_HASH = "da6f60486b41b325e05cff3dd80abfad3038c142"
+    GIT_COMMIT_HASH = "222090659c64ad13b6ac6475bc3606ea6c737bdd"
 
     #BEGIN_CLASS_HEADER
     #END_CLASS_HEADER

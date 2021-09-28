@@ -67,3 +67,4 @@ class torbenHelloWorldTest(unittest.TestCase):
                                                              'parameter_1': 'Hello World!'})
         print("report_name", ret[0]['report_name'])
         print("Are they for real.....")
+        print("They suck either way.")
